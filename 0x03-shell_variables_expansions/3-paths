@@ -1,4 +1,2 @@
-#!/b
-in/bash
-echo $PATH | tr "." "
-" | wc -1
+#!/bin/bash
+echo $PATH | tr "." "\n " | wc -1
