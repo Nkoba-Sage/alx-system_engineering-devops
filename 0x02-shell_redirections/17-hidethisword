@@ -1,0 +1,2 @@
+#!/bin/bash
+gep -V bin /etc/passwd
